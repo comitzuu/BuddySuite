@@ -1,0 +1,317 @@
+/*
+Theme Name: walled
+Theme URI: http://taptappress.com
+Description: BuddySuite css.
+Version: 1.0
+Author: modemlooper
+Author URI: http://twitter.com/modemlooper
+Tags: buddypress
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: none;
+}
+
+html {
+	background-color: #eaeaea;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:visited {
+	color: #5e5e5e;
+}
+
+#wrapper {
+	padding: 10px;
+	width: 800px;
+	margin: auto auto;
+	overflow: hidden;
+}
+
+#login-logo {
+
+}
+
+#login-text {
+	width: 460px;
+	float: left;
+	padding-right: 40px;
+}
+
+p.forgetmenot {
+	font-size: 12px;
+}
+
+#login {
+	width: 300px;
+	float: right;
+	padding-top: 20px;
+}
+
+
+/*--------------------------------------------------------------
+6.5 - Forms
+--------------------------------------------------------------*/
+.standard-form textarea,
+.standard-form input[type=text],
+.standard-form select,
+.standard-form input[type=password],
+.dir-search input[type=text] {
+	border: 1px inset #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #888;
+	font: inherit;
+	font-size: 17px;
+	padding: 6px;
+	margin-bottom: 10px;
+}
+.standard-form select {
+	padding: 3px;
+}
+.standard-form input[type=password] {
+	margin-bottom: 5px;
+}
+.standard-form label,
+.standard-form span.label {
+	display: block;
+	font-weight: bold;
+	font-size: 0.9em;
+	margin: 15px 0 5px 0;
+}
+.standard-form div.checkbox label,
+.standard-form div.radio label {
+	color: #888;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 5px 0 0 0;
+}
+.standard-form label {
+	margin-top: 5px;
+}
+.standard-form input[type=text] {
+	width: 85%;
+}
+.standard-form input[type=text],
+.standard-form input[type=password] {
+	padding: 4px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.standard-form #basic-details-section input[type=password],
+.standard-form #blog-details-section input#signup_blog_url {
+	width: 100%;
+}
+.standard-form#signup_form input[type=text],
+.standard-form#signup_form textarea,
+.form-allowed-tags,
+#commentform input[type=text],
+#commentform textarea {
+	width: 100%;
+}
+.standard-form#signup_form div.submit {
+	float: right;
+}
+div#signup-avatar img {
+	margin: 0 15px 10px 0;
+}
+.standard-form textarea {
+	width: 100%;
+	height: 100px;
+}
+.standard-form textarea#message_content {
+	height: 200px;
+}
+.standard-form#send-reply textarea {
+	width: 97.5%;
+}
+.standard-form p.description {
+	color: #888;
+	font-size: 11px;
+	margin: 5px 0;
+}
+.standard-form div.submit {
+	clear: both;
+	padding: 15px 0 0 0;
+}
+.standard-form p.submit {
+	margin-bottom: 0;
+	padding: 15px 0 0 0;
+}
+.standard-form div.submit input {
+	margin-right: 15px;
+}
+.standard-form div.radio ul {
+	margin: 10px 0 15px 38px;
+	list-style: disc;
+}
+.standard-form div.radio ul li {
+	margin-bottom: 5px;
+}
+.standard-form a.clear-value {
+	display: block;
+	margin-top: 5px;
+	outline: none;
+}
+.standard-form #basic-details-section,
+.standard-form #blog-details-section,
+.standard-form #profile-details-section {
+	float: left;
+	width: 48%;
+}
+.standard-form #profile-details-section {
+	float: right;
+}
+.standard-form #blog-details-section {
+	clear: left;
+}
+.standard-form input:focus,
+.standard-form textarea:focus,
+.standard-form select:focus {
+	background: #fafafa;
+	color: #555;
+}
+form#send-invite-form {
+	margin-top: 20px;
+}
+div#invite-list {
+	background: #f5f5f5;
+	border: 1px solid #e4e4e4;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 400px;
+	margin: 0 0 10px;
+	overflow: auto;
+	padding: 5px;
+	width: 160px;
+}
+button,
+a.button,
+input[type=submit],
+input[type=button],
+input[type=reset],
+ul.button-nav li a,
+div.generic-button a,
+.comment-reply-link {
+	background: #fff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#ededed 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ffffff 0%,#ededed 100%); /* W3C */
+	border: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #666;
+	cursor: pointer;
+	font: bold 15px/18px Arial, Tahoma, Verdana, sans-serif;
+	outline: none;
+	padding: 8px 30px;
+	text-align: center;
+	text-decoration: none;
+}
+button:hover,
+a.button:hover,
+a.button:focus,
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+ul.button-nav li a:hover,
+ul.button-nav li.current a,
+div.generic-button a:hover,
+.comment-reply-link:hover {
+	background: #ededed;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* W3C */
+	border: 1px solid #bbb;
+	color: #666;
+	outline: none;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+#wrapper {
+	width: 100%;
+}
+
+#login-text {
+	width: 50%;
+	float: left;
+}
+
+
+#login {
+	width: 40%;
+
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+#wrapper {
+	width: 100%;
+}
+
+.standard-form #basic-details-section,
+.standard-form #blog-details-section,
+.standard-form #profile-details-section {
+	width: 100%;
+}
+.standard-form #profile-details-section {
+	float: right;
+	width: 100%;
+}
+.standard-form #blog-details-section {
+	clear: left;
+	width: 100%;
+}
+
+#login-text {
+	width: 100%;
+	float: left;
+}
+
+
+#login {
+	width: 100%;
+	float: left;
+}
+
+
+
+}
+
+div.footer {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.field-visibility-settings-notoggle, .field-visibility-settings-toggle {
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+}
+
+

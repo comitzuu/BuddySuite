@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: buddysuite\n"
+"POT-Creation-Date: 2013-05-03 14:17-0800\n"
+"PO-Revision-Date: 2013-05-03 14:17-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/buddysuite-admin.php:82
+msgid "Use the help tab in the upper right for help with settings."
+msgstr ""
+
+#: includes/buddysuite-admin.php:107
+msgid "   Deactivate License"
+msgstr ""
+
+#: includes/buddysuite-admin.php:112
+msgid "   Activate License"
+msgstr ""
+
+#: includes/buddysuite-admin.php:187
+msgid "Disable responsive CSS on BuddyPress Default theme."
+msgstr ""
+
+#: includes/buddysuite-admin.php:197
+msgid "Disable loading of deprecated code."
+msgstr ""
+
+#: includes/buddysuite-admin.php:207
+msgid "Show user profiles at site root url/membername"
+msgstr ""
+
+#: includes/buddysuite-admin.php:217
+msgid "Disable privacy tab on user profiles."
+msgstr ""
+
+#: includes/buddysuite-admin.php:227
+msgid ""
+"Only allow logged in users can see this site. Set individual Page and Post "
+"privacy during content creation."
+msgstr ""
+
+#: includes/buddysuite-admin.php:237
+msgid ""
+"Block access to site and show a login page. This overrides landing page and "
+"private site settings."
+msgstr ""
+
+#: includes/buddysuite-admin.php:263
+msgid "Choose a landing page for logged out users."
+msgstr ""
+
+#: includes/buddysuite-admin.php:272
+msgid "Turn off Gravatars."
+msgstr ""
+
+#: includes/buddysuite-admin.php:282
+msgid "Allow special characters and uppercase letters in usernames."
+msgstr ""
+
+#: includes/buddysuite-admin.php:292
+msgid "Disable @ mentions."
+msgstr ""
+
+#: includes/buddysuite-admin.php:315
+msgid "Usernames in directory instead of profile name field."
+msgstr ""
+
+#: includes/buddysuite-admin.php:325
+msgid "Allow users to see the last 20 members who have viewed their profile."
+msgstr ""
+
+#: includes/buddysuite-admin.php:336
+msgid ""
+"Prevent spam sign ups by redirecting wp-signup.php to BuddyPress register "
+"slug."
+msgstr ""
+
+#: includes/buddysuite-admin.php:346
+msgid "Prevent auto linking of profile fields."
+msgstr ""
+
+#: includes/buddysuite-admin.php:359 includes/buddysuite-admin.php:384
+#: includes/buddysuite-admin.php:409
+msgid "Default"
+msgstr ""
+
+#: includes/buddysuite-admin.php:371
+msgid "Choose avatar thumbnail size."
+msgstr ""
+
+#: includes/buddysuite-admin.php:396
+msgid "Choose avatar size."
+msgstr ""
+
+#: includes/buddysuite-admin.php:421
+msgid "Choose max avatar size."
+msgstr ""
+
+#: includes/buddysuite-admin.php:461
+msgid "None"
+msgstr ""
+
+#: includes/buddysuite-admin.php:476
+msgid "Choose a page for logged out welcome text."
+msgstr ""
+
+#: includes/buddysuite-admin.php:511
+msgid "Overview"
+msgstr ""
+
+#: includes/buddysuite-admin.php:517
+msgid "Private Site"
+msgstr ""
+
+#: includes/buddysuite-admin.php:523
+msgid "Landing Page"
+msgstr ""
+
+#: includes/buddysuite-admin.php:529
+msgid "Login Page"
+msgstr ""
+
+#: includes/buddysuite-admin.php:535
+msgid "Login Logo"
+msgstr ""
+
+#: includes/buddysuite-admin.php:540
+msgid "Login Welcome Text"
+msgstr ""
+
+#: includes/buddysuite-admin.php:556
+msgid ""
+"BuddySuite adds many features an settings required to run a professional "
+"social site. "
+msgstr ""
+
+#: includes/buddysuite-admin.php:559
+msgid ""
+"This setting will redirect logged out users to a page you choose in the "
+"Landing Page settings. If no page is chosen users get redirected to the site "
+"root. You can set individual posts and pages to be visible to users who are "
+"logged out. Page and post visiibility setting is in upper right when "
+"creating content."
+msgstr ""
+
+#: includes/buddysuite-admin.php:562
+msgid ""
+"Choose a page to redirect logged out users when Private Site setting is "
+"checked. You create this page in the WordPress admin."
+msgstr ""
+
+#: includes/buddysuite-admin.php:565
+msgid ""
+"This setting closes off access to logged out users and displays a "
+"customizable login page instead of the active theme."
+msgstr ""
+
+#: includes/buddysuite-admin.php:568
+msgid ""
+"Upload an image you want to use as a logo. If no logo is specified login "
+"page will show the site name."
+msgstr ""
+
+#: includes/buddysuite-admin.php:571
+msgid ""
+"Create a page that will contain your login page welcome text. Then choose "
+"this page from the drop down."
+msgstr ""
+
+#: includes/buddysuite-core.php:56
+#, php-format
+msgid ""
+"<div id=\"message\" class=\"info\"><p>dYou must be friends in order to "
+"access this user's %s.</p></div>"
+msgstr ""
+
+#: includes/buddysuite-core.php:58 includes/buddysuite-core.php:89
+#, php-format
+msgid ""
+"<div id=\"message\" class=\"info\"><p>You must be logged in and friends in "
+"order to access this user's %s.</p></div>"
+msgstr ""
+
+#: includes/buddysuite-core.php:87
+#, php-format
+msgid ""
+"<div id=\"message\" class=\"info\"><p>You must be friends in order to access "
+"this user's %s.</p></div>"
+msgstr ""
+
+#: includes/buddysuite-core.php:118 includes/buddysuite-user-settings.php:187
+msgid "Privacy"
+msgstr ""
+
+#: includes/buddysuite-core.php:144
+msgid "logged out users can view this page"
+msgstr ""
+
+#: includes/buddysuite-core.php:287
+msgid "Viewers"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:143
+#: includes/buddysuite-user-settings.php:144
+msgid ""
+"A person(s) you are attempting to send a message to has blocked private "
+"messages.  Your message has not been sent."
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:249
+msgid "Settings updated!"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:276
+msgid "Profile Privacy"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:283
+#, php-format
+msgid "only show %s page to friends"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:291
+msgid "Message Privacy"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:294
+msgid "only allow friends to send you private messages"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:296
+msgid "only allow friends to send you public messages"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:302
+msgid "Friend Privacy"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:305
+msgid "block users from adding you as a friend"
+msgstr ""
+
+#: includes/buddysuite-user-settings.php:311
+msgid "Save Changes"
+msgstr ""
+
+#: includes/menus/buddysuite-menu-meta-box.php:31
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/stalker/buddysuite-stalker-screens.php:23
+msgid "Viewing profile visitors  "
+msgstr ""
+
+#: includes/stalker/buddysuite-stalker-screens.php:24
+msgid "(last "
+msgstr ""
+
+#: includes/stalker/buddysuite-stalker-screens.php:29
+msgid "No recent viewers"
+msgstr ""
+
+#: includes/stalker/buddysuite-stalker-screens.php:38
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: includes/themes/walled/activate.php:10
+msgid "Account Activated"
+msgstr ""
+
+#: includes/themes/walled/activate.php:12
+msgid "Activate your Account"
+msgstr ""
+
+#: includes/themes/walled/activate.php:22
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: includes/themes/walled/activate.php:24
+msgid ""
+"Your account was activated successfully! You can now log in with the "
+"username and password you provided when you signed up."
+msgstr ""
+
+#: includes/themes/walled/activate.php:29
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: includes/themes/walled/activate.php:33
+msgid "Activation Key:"
+msgstr ""
+
+#: includes/themes/walled/activate.php:37
+msgid "Activate"
+msgstr ""
+
+#: includes/themes/walled/index.php:18
+msgid "Welcome!"
+msgstr ""
+
+#: includes/themes/walled/index.php:19
+msgid ""
+"This is your welcome text. Create a page and then choose it as the login "
+"text in the BuddySuite settings."
+msgstr ""
+
+#: includes/themes/walled/index.php:28 includes/themes/walled/register.php:36
+msgid "Username"
+msgstr ""
+
+#: includes/themes/walled/index.php:30
+msgid "Password"
+msgstr ""
+
+#: includes/themes/walled/index.php:32
+msgid "Remember Me"
+msgstr ""
+
+#: includes/themes/walled/index.php:35
+msgid "Log In"
+msgstr ""
+
+#: includes/themes/walled/index.php:41
+#, php-format
+msgid ""
+"Please <a href=\"%s\" title=\"Create an account\">create an account</a> to "
+"get started."
+msgstr ""
+
+#: includes/themes/walled/register.php:15
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: includes/themes/walled/register.php:22
+msgid "Create an Account"
+msgstr ""
+
+#: includes/themes/walled/register.php:26
+msgid ""
+"Registering for this site is easy, just fill in the fields below and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: includes/themes/walled/register.php:34
+msgid "Account Details"
+msgstr ""
+
+#: includes/themes/walled/register.php:36
+#: includes/themes/walled/register.php:40
+#: includes/themes/walled/register.php:44
+#: includes/themes/walled/register.php:48
+#: includes/themes/walled/register.php:75
+#: includes/themes/walled/register.php:83
+#: includes/themes/walled/register.php:91
+#: includes/themes/walled/register.php:101
+#: includes/themes/walled/register.php:112
+#: includes/themes/walled/register.php:127
+#: includes/themes/walled/register.php:138
+#: includes/themes/walled/register.php:210
+#: includes/themes/walled/register.php:219
+msgid "*"
+msgstr ""
+
+#: includes/themes/walled/register.php:40
+msgid "Email Address"
+msgstr ""
+
+#: includes/themes/walled/register.php:44
+msgid "Choose a Password"
+msgstr ""
+
+#: includes/themes/walled/register.php:48
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/themes/walled/register.php:64
+msgid "Profile Details"
+msgstr ""
+
+#: includes/themes/walled/register.php:118
+msgid "Clear"
+msgstr ""
+
+#: includes/themes/walled/register.php:158
+#: includes/themes/walled/register.php:173
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: includes/themes/walled/register.php:163
+msgid "Who can see this field?"
+msgstr ""
+
+#: includes/themes/walled/register.php:168
+msgid "Close"
+msgstr ""
+
+#: includes/themes/walled/register.php:204
+msgid "Blog Details"
+msgstr ""
+
+#: includes/themes/walled/register.php:206
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: includes/themes/walled/register.php:210
+msgid "Blog URL"
+msgstr ""
+
+#: includes/themes/walled/register.php:219
+msgid "Site Title"
+msgstr ""
+
+#: includes/themes/walled/register.php:223
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: includes/themes/walled/register.php:226
+msgid "Yes"
+msgstr ""
+
+#: includes/themes/walled/register.php:227
+msgid "No"
+msgstr ""
+
+#: includes/themes/walled/register.php:240
+msgid "Complete Sign Up"
+msgstr ""
+
+#: includes/themes/walled/register.php:251
+msgid "Sign Up Complete!"
+msgstr ""
+
+#: includes/themes/walled/register.php:257
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: includes/themes/walled/register.php:259
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+
+#: includes/themes/walled/register.php:274
+msgid "* required field"
+msgstr ""
