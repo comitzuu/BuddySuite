@@ -97,7 +97,7 @@ function buddysuite_plugin_options_validate($input) {
 function buddysuite_setting_buddysuite_license_key() {
 	global $buddysuite_options;
 
-	$key = !empty( $buddysuite_options['buddysuite_license_key'] ) ? $buddysuite_options['buddysuite_license_key'] : '' ;
+	$key = esc_attr( !empty( $buddysuite_options['buddysuite_license_key'] ) ? $buddysuite_options['buddysuite_license_key'] : '' ) ;
 
 	echo "<input id='buddysuite_license_key' name='buddysuite_plugin_options[buddysuite_license_key]' size='40' type='text' value='$key' />  ";
 
